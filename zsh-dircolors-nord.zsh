@@ -11,7 +11,7 @@ function setupnord ()
 
     local _NORD_THEME_PATH="$_ZSH_DIRCOLORS_NORD_DIR/${_NORD_THEME}"
     if [[ -f $_NORD_THEME_PATH ]]; then
-        eval $(dircolors $_NORD_THEME_PATH)
+        eval $(gdircolors $_NORD_THEME_PATH)
     else
         echo "Could not load theme $_NORD_THEME_PATH"
     fi
